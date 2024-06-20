@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+body{
+    height:100vh;
+    font-family: sans-serif;
+    background-color: black;
+}
+.heading{
+    text-align: center;
+    margin-top:1px;
+    font-size:85px;
+    /* color:rgb(137, 218, 32);
+     */
+     color:white;
+    font-family:Dancing Script;
+}
+.design{
+    font-family:oswald;
+    height:40vh;
+    /* border:3px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 400px;
+    font-stretch:200%;
+    padding-left:35px;
+    letter-spacing:0.008rem;
+    background-image:url('bg13.png') ;
+    /* margin-bottom: 300px; */
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    /* border:2px solid white; */
+}
+#bg{
+    width:430px;
+    height: 440px;
+    z-index: 40;
+    /* border:2px solid white; */
+}
